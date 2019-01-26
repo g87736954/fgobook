@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rZO-vm-xxR">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="WC7-4R-hIp">
+            <objects>
+                <tableViewController id="rZO-vm-xxR" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="hMM-CV-mUe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <sections>
+                            <tableViewSection headerTitle="Saber" id="2CA-fI-fNM">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="DCY-AS-qez">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="157"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DCY-AS-qez" id="hvs-i7-fW0">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="156.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="船長大頭" translatesAutoresizingMaskIntoConstraints="NO" id="W2K-gr-hTi">
+                                                    <rect key="frame" x="16" y="20" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="弗朗西斯・德雷克" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gG-wQ-ztO">
+                                                    <rect key="frame" x="144" y="56" width="209" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="yfE-Vz-vcD" kind="show" id="Z4c-g3-x74"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="DQ9-Hn-pxD">
+                                        <rect key="frame" x="0.0" y="185" width="375" height="157"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DQ9-Hn-pxD" id="7MD-BZ-0qH">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="156.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="騎伊斯塔大頭" translatesAutoresizingMaskIntoConstraints="NO" id="eJ2-7z-r2M">
+                                                    <rect key="frame" x="16" y="20" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="伊絲塔" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rt1-8P-9z0">
+                                                    <rect key="frame" x="190" y="56" width="90" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="OqT-Db-lEa" kind="show" id="dh7-ZT-i0u"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="3sJ-lu-W1S">
+                                        <rect key="frame" x="0.0" y="342" width="375" height="157"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3sJ-lu-W1S" id="NP2-LH-EwD">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="156.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪爾大" translatesAutoresizingMaskIntoConstraints="NO" id="Slg-BY-B6h">
+                                                    <rect key="frame" x="16" y="20" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <textView opaque="NO" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="瑪爾大" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfH-Ki-zHv">
+                                                    <rect key="frame" x="144" y="46" width="201" height="69"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BCQ-AW-Rw6" kind="show" id="BeB-Zm-feP"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="ML8-0m-TF6">
+                                        <rect key="frame" x="0.0" y="499" width="375" height="157"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ML8-0m-TF6" id="hJz-bd-Isx">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="156.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阪本龍馬大頭" translatesAutoresizingMaskIntoConstraints="NO" id="ukU-ye-lRJ">
+                                                    <rect key="frame" x="16" y="20" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="坂本龍馬" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnF-0p-NmV">
+                                                    <rect key="frame" x="190" y="56" width="114" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Ic3-nt-B8a" kind="show" id="u51-kw-0Ie"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="157" id="3qE-NO-Ihy">
+                                        <rect key="frame" x="0.0" y="656" width="375" height="157"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3qE-NO-Ihy" id="iXP-th-nLP">
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="156.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="阿斯托爾福" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98N-Fx-FMj">
+                                                    <rect key="frame" x="190" y="56" width="143" height="45"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阿福大頭" translatesAutoresizingMaskIntoConstraints="NO" id="hqp-oc-kEk">
+                                                    <rect key="frame" x="8" y="18" width="120" height="120"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="X4S-5H-VEd" kind="show" id="a0q-dK-00B"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="rZO-vm-xxR" id="GLk-MT-mbw"/>
+                            <outlet property="delegate" destination="rZO-vm-xxR" id="34a-kN-M8F"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Z44-S5-aRK"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9D4-2b-F7h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4028" y="872.11394302848578"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dak-Bv-HkS">
+            <objects>
+                <viewController id="yfE-Vz-vcD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mc4-Pw-30W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41J-62-4LK">
+                                <rect key="frame" x="124" y="345" width="126" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="角色故事">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="24" name="STXingkaiTC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RK-hu-caH">
+                                <rect key="frame" x="16" y="398" width="343" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">冒險家兼私掠船長，同時也是艦隊司令官。
+完成了環遊世界一周的壯舉，並以其收益，
+為英國開闢了大航海時代霸者之路的人物。
+此外，還葬送了強大的西班牙無敵艦隊，
+令俗稱日不落帝國的西班牙瓦解的「射落太陽的女人」。                                         -------------------------------------身高/體重：162cm．55kg
+出處：史實
+地域：英國
+屬性：混沌．惡　　　性別：女性
+比男人更男人的女海盜。
+-------------------------------------                                                                  剎那享樂主義者，
+最後迎來的只有華麗殞落的結局。
+該英靈不執著於生（人生。作為人類的意義、尊嚴），
+而是樂見死亡（萬人共同迎來的沒落）。
+53歲時，因疫病倒下。死前精神錯亂，
+多有詭異行徑，比如在病床上想要穿上鎧甲。       -------------------------------------不論善惡立場，公平對待的性格。
+享樂主義者，喜歡華麗的東西。
+崇尚瞬間的快樂，在私生活與戰爭方面，
+都喜愛暴風雨過後寸草不生的樣子。
+喜歡金銀財寶，但不喜歡收集，
+更喜歡散財。                                                                        -                                                                                        『黃金鹿與暴風夜』
+階級：A+　種類：對軍寶具
+Golden Wild Hunt
+以生前的愛船『金鹿號（Golden Hind）』為中心，
+召喚、展開生前所指揮的無數船隊的亡靈。
+並以壓倒性的火力齊射殲滅敵人。                                                       -                                                                   星之開拓者：EX
+賦予成為人類歷史轉折點的英雄的特殊技能。
+將各種難以完成的事在「不可能的狀態下」，
+化為「可實現的事情」。                                                                                -                                                                        弗朗西斯．德雷克是世上首位活著完成環遊世界的偉人。
+（第一位的麥哲倫在完成中途死去）
+史實上雖為男性，但在本作中，德雷克以女性形象出現。
+這是因為周圍的人誰都不將德雷克視為女性所致。
+船員表示「哎呀，如果將船長視為女性的話，
+我就根本不能算男人了嘛，而且這也是在侮辱船長吧」</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kYi-E6-9Y4">
+                                <rect key="frame" x="0.0" y="72" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DHe-l5-hK2">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="船長" translatesAutoresizingMaskIntoConstraints="NO" id="1eM-uU-NMK">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="船長一二" translatesAutoresizingMaskIntoConstraints="NO" id="Rxd-kN-5oD">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="lSJ-mH-4h9"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="750" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="1E1-Hg-naD"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="CQc-Uq-ioj"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2LD-tB-7ds" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4886" y="-1110"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="X3R-F9-0XV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uRx-zE-vW8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="UxM-7y-veb"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ik3-9L-Ew5">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rZO-vm-xxR" kind="relationship" relationship="rootViewController" id="8Qm-qj-5RK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fpa-E7-rce" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3172" y="871"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="eoh-hE-3Gc">
+            <objects>
+                <viewController id="Ic3-nt-B8a" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="31z-r3-39a">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEC-zs-62J">
+                                <rect key="frame" x="124" y="345" width="126" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="角色故事">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="24" name="STXingkaiTC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0z-pj-Ys6">
+                                <rect key="frame" x="16" y="398" width="343" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">薩長同盟の立役者であり、亀山社中（のちの海援隊）の結成、大政奉還の成立に尽力するなど明治維新に大きく貢献した志士の一人。
+
+飄々とした20代半ばの青年。北辰一刀流の達人であるが、本人は争いごとを好まない根っからのお人好し。傍らには常に謎の美女が寄り添っている。                                       -------------------------------------身長／体重：178cm・72kg
+出典：史実
+地域：日本
+属性：中立・中庸　　　性別：男性
+「え？　お竜さんのも載せろって？」
+
+身長／体重：173cm・57kg
+出典：帝都聖杯奇譚
+地域：日本
+属性：混沌・善　　　性別：女性
+「お竜さんの秘密大公開だぞ」
+-------------------------------------                                                                  ―――誰も斬りたくなかったし、
+　　　　　　　　　誰も撃ちたくなかった。
+
+始まりは近所の子の為に、次は郷里の友の為、次は同志の仲間の為に、最後は日本の国の為。
+生まれついてのお人好しは、始まってから終わるまで、ひたすら誰かの為に時代を駆け続けた。誰からも好かれ、誰からも気味悪がられ、ついには無残に殺され世を去ったが、それを恨みもしないし悔いてもいない。彼は最初から最後までみんなで楽しく暮らせる世を夢見ていた。ただそれだけだったのだ。       -------------------------------------維新の英雄、坂本龍馬。
+開催地が日本である『帝都聖杯奇譚』の聖杯戦争において、知名度的には織田信長に匹敵する英霊であり、特異なタイプの騎乗宝具を有する強力なサーヴァント。
+真名を隠すために普段は流暢な標準語でしゃべるが、たまに土佐訛りが出てしまうことがある。
+
+相方のお竜さんは史実のあの方ではなく、とある山に封印状態で縫い付けられていたまつろわぬ何か。龍馬が若気の至りで封印の鉾を抜いてしまい解放された。                                                                        -                                                                                        ○船中八策：Ａ
+坂本龍馬が起草したとされる新たな国の形を示す八つの策。当時としては画期的かつ近代的な条文が記されている。困難な状況下においてもよりよい未来へと向かう希望の道筋を示すスキル。
+
+○維新の英雄：Ａ
+幕末という動乱の時代を駆け抜け、明治維新という史上稀にみる一大改革に貢献した龍馬に与えられた特別なスキル。
+
+○カリスマ：Ｃ＋
+国家運営は出来ないが、志を共にする仲間とは死を厭わない強固な繋がりを持つ。
+龍馬のそれは時に対立するイデオロギーを持つ集団に手を取らせるほどの強力なもの。
+
+〇怪力：Ａ
+凄い馬力のお竜さんのスキル。竜なのに馬力という謎のものさし。
+
+〇神性：Ｂ－
+とても固いお竜さんのスキル。
+刀も通さぬ柔肌。引きずるほど長い髪の毛も固すぎて逆に地面を削り取るレベル。
+
+○暴走：Ｂ
+首元の逆鱗に触れられると一時的に狂化状態となるお竜さんのスキル。                                                       -                                                                   『天駆ける竜が如く』
+ランク：ＥＸ　種別：対軍宝具
+レンジ：２～５０　最大捕捉：５００人
+
+あまかけるりゅうがごとく。
+通常は「お竜」の名を持つ黒髪の女性の姿をしているが真名解放によって巨大な竜に変貌する自律系人型宝具。
+通常時の人型形態でもサーヴァントと互角に渡り合うほどの怪力と戦闘力を有し、身に纏う「神秘」は通常の攻撃では傷すらつけられないほどの桁違いの防御力を誇る。真名解放時はまさに古の竜の如き威容を現し、圧倒的なまでの力を揮う。
+ランクのＥＸは判断不能という意味でのもの。                                                                                -                                                                        龍馬の傍らに付き従う黒髪の女性、お竜。
+とある山に封印されていたところを助けてもらったときに龍馬に一目ぼれし、恩返しを口実に龍馬の元に押しかけ女房した。厳密には竜ではなく、蛟や大蛇といった物の怪の類に近い竜未満の存在。
+幕末の彼の偉業の陰には彼女の助けが少なからずあったのかもしれない。なかったかもしれない。
+ちなみに龍馬の最期の時は運悪く傍を離れていたため助けることがかなわなかった。
+悲しみにくれた彼女は人知れず海の底に消え、竜となって天に昇ることもなかった。</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pjc-mz-IPa">
+                                <rect key="frame" x="0.0" y="72" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dhU-ol-hWL">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阪本龍馬" translatesAutoresizingMaskIntoConstraints="NO" id="Xf2-oy-QAg">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阪本龍馬一二" translatesAutoresizingMaskIntoConstraints="NO" id="wSQ-O6-LAj">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="IFK-bq-dbn"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="750" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="Cv7-Jv-0JW"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tO4-p3-deN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9EI-mj-h9P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4886" y="870"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2no-3y-ouM">
+            <objects>
+                <viewController id="X4S-5H-VEd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HMr-iQ-NZe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNl-2v-1j9">
+                                <rect key="frame" x="124" y="345" width="126" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="角色故事">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="24" name="STXingkaiTC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KmP-Cj-V6l">
+                                <rect key="frame" x="16" y="398" width="343" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">阿斯托爾福是法蘭西經典騎士道故事——
+查理曼傳說中的登場人物。
+查理曼十二聖騎士之一，也是英格蘭王子。
+若要補充一句的話，
+此人也是個徹底喪失理性的無能英靈。                                       -------------------------------------身高/體重：164cm．56kg
+出處：查理曼傳說
+地域：法國
+屬性：混沌．善　　　性別：？？？
+根據本人的要求，性別是個秘密。
+-------------------------------------                                                                  沒有什麼特別的希望聖杯能實現的願望，
+所以是個幹勁隨著是否喜歡御主而變化的從者。
+不管對象是異性還是同性，
+是對喜歡的對象極為率直的那類。       -------------------------------------頭查理曼十二聖騎士，
+是法蘭克王國國王查理曼麾下的十二名騎士。
+由於阿斯托爾福是羅蘭的表兄弟，
+才得以加入這十二人——
+儘管如此，傳說中的阿斯托爾福還是以「弱小」而著稱。                                                                       -                                                                                        史無前例、實力尚未成熟、糊里糊塗等等。
+不管怎麼說，阿斯托爾福無視這些傳言，
+以騎士之道解決了各種難題。
+順便說一下阿斯托爾福的這身服裝。
+是為了讓失戀狂奔的羅蘭冷靜下來而準備的。                                                       -                                                                   阿斯托爾福的理性徹底蒸發了，比起有益或無益，
+此人更注重「自己心情是否愉快」，
+並將其作為判斷標準。
+被作為從者召喚後這點依然未變。
+儘管總讓人提心吊膽，但因為本人本性還是善良的，
+所以不會為惡。                                                                               -                                                                        此外，阿斯托爾福本人雖然確實很弱，
+但在冒險路上獲贈，或是借來的各種寶具極為強大，
+足以作為可靠的戰鬥力來算。
+只不過，要把阿斯托爾福作為從者來操控卻極為困難</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I2I-K4-qWr">
+                                <rect key="frame" x="0.0" y="72" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pav-I8-8LK">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阿福" translatesAutoresizingMaskIntoConstraints="NO" id="s4g-RZ-TY2">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="阿福一二" translatesAutoresizingMaskIntoConstraints="NO" id="g2G-vN-J4H">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="Nmw-iq-bMn"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="750" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="9PD-jF-rzc"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="u7Q-Ft-MBu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7WW-De-dym" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4886" y="1523"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VMY-0G-Dwd">
+            <objects>
+                <viewController id="OqT-Db-lEa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Dlo-os-qGz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7Q-tM-9B6">
+                                <rect key="frame" x="124" y="345" width="126" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="角色故事">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="24" name="STXingkaiTC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q6T-GK-9bN">
+                                <rect key="frame" x="16" y="398" width="343" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">金星女神伊什塔尔夏日的模样。
+夏日的祭典令人为之疯狂……
+被信仰打动了内心，举办了这个大规模活动，
+简直就是女神般的女神。
+也是驾驶着改装成现代风格的天舟马安娜，
+轻快而痛快地驱使肉体的功夫系女神。
+
+「各位，都玩得尽兴吗～～！？　觉得非常棒～～？
+　嗯嗯，很好很好！
+　继续这样努力下去，直到极限哦～！」
+
+像这样和蔼可亲阔绰大方地向聚集在会场中的所有人
+送去祝福的女神中的女神。
+
+隐藏在她笑容背后的，究竟是什么。                                          -------------------------------------身高／体重：159cm·47kg
+出处：古代美索不达米亚神话
+地域：美索不达米亚
+属性：秩序·善　　性别：女性
+这女神还是一如既往地轻飘飘双脚不沾地。
+据说卫衣下面穿着白色的高开叉泳装。
+-------------------------------------                                                                  雖或许是还没尝够苦头吧。
+
+夏日祭典，伊什塔尔杯。
+这是为了让伊什塔尔的使魔·天之公牛古伽兰那
+复活而举行的大型仪式。
+在美索不达米亚世界遭袭击的那灾害之日，
+失去了古伽兰那，面子荡然无存的伊什塔尔一直在
+虎视眈眈地寻找复仇的机会。
+
+而结果，就是这次的活动。
+再说一遍。或许是她还没尝够苦头吧。
+
+女神伊什塔尔将从巴比伦宝库中偷偷拿来的贵重祭器
+转化为圣杯。利用这种力量，她在康诺特的土地上贴上了
+金星贴图，并通过让力量强大的英灵向大地献上
+感谢（赛车比赛）的形式，企图重新创造古伽兰那。
+之所以将伊什塔尔神殿改造成巨大魔力资源集聚回路
+也是为达到这个目的的一环。
+伊什塔尔QPS（Quantum piece Power System）是
+从人类甚至英灵身上吸收魔力，
+转为己用的噩梦般收款装置。QP积攒得越多，
+伊什塔尔的神格就越高。这种行为可谓邪神中的邪神。       -------------------------------------自由奔放，优雅大胆，然而又很残酷的女神伊什塔尔
+在换上了现代服饰之后，身为女神的高贵与恐怖感
+稍稍得以缓和。开朗与宽容程度比平时有所提升，
+变得十分友好。
+
+身为女神，理应会一两种格斗技……当然是不可能的。
+伊什塔尔的行动之所以会如此灵巧，
+都是多亏了身为自己躯壳的这具肉体
+熟练地掌握了魔术与格斗技。
+将肉体学会的功夫进行伊什塔尔流改编，
+就成了当前的战斗风格。
+「乌鲁克艺术！　原来还有这种东西啊。」
+在神塔上晒着日光浴的某位王这么评论。                                                                       -                                                                                        『神峰天回明星之虹』
+阶级：EX　种类：对人宝具　有效范围：0～？？
+An Gal Ta Seven Colors
+由于马安娜化为了现代风的交通工具，
+真名也被变更成现代风。
+全力享受夏日的样子。
+骑着马安娜小摩托，游览地球上各种度假胜地，
+心情愉悦，并将这种快乐的心情转换成魔力，
+播撒向大地的虹之宝具。服装变更也无比美丽，
+洒向地面的魔力化为闪烁的星星，给敌人造成伤害。
+本人心情快乐而美好，却给地面造成了大麻烦。                                                       -                                                                   骑乘：EX
+能乘坐天舟马安娜的伊什塔尔的骑乘技能
+与人类完全不是同一次元的存在，根本无法相提并论。
+当然，虽说『无法相提并论』，
+却也不代表会比人类『更精湛或更快』。
+总之是『各种意义上的厉害』。
+是已经不用怎么在意时间或空间问题的乌鲁克驾驶技术。
+
+闪耀水之衣：A
+将大王冠换成泳装的技能。
+大王冠仅对伊什塔尔本人有效，而这个则能对全队奏效。但反之，效果会有所降低。
+
+夏日破坏者！：A
+将夏天（从各种意义上）进行破坏的女神。
+「女神变生」的降格版。                                                                                -                                                                        Archer的伊什塔尔使用的弓，
+是从天舟马安娜船首部分卸下的部分，
+这次是将天舟的「桨」的部分变化为小摩托，
+用作交通工具。这辆小摩托的外观酷似现代小摩托，
+但当然，性能是女神级的。
+能够在天空飞翔，也能进行传送。
+伊什塔尔脚下的谜之生物一直在淅淅索索地动，
+但伊什塔尔对该生物贯彻不做评论解释的方针。
+
+认定拯救乌鲁克的御主是前途无量的勇者，
+但还是对「为什么这么平庸的人会成为勇者呢？」
+感到奇怪。觉得御主是个奇妙的人类。
+这次看中了御主的人望（备受从者们信任），
+雇佣他／她当伊什塔尔杯的工作人员……？</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ghA-cb-pPI">
+                                <rect key="frame" x="0.0" y="72" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xqf-so-pNR">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="騎伊斯塔" translatesAutoresizingMaskIntoConstraints="NO" id="8JA-s5-Wjb">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="其斯塔一二" translatesAutoresizingMaskIntoConstraints="NO" id="4Ka-Zb-bOj">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="6vc-B8-KOZ"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="750" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="Ztj-TE-fHC"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="fGt-Ei-aae"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1M0-aE-F0l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4886" y="-451"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="PRv-8G-ybX">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="9Te-Xk-xyh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="DzY-qD-Jnp">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="uRx-zE-vW8" kind="relationship" relationship="viewControllers" id="ItH-hn-zFS"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nkr-4b-hGD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2359" y="872"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Drv-Ts-lrr">
+            <objects>
+                <viewController id="BCQ-AW-Rw6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tgL-pb-XkB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pS3-Dm-jT9">
+                                <rect key="frame" x="124" y="345" width="126" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="角色故事">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="24" name="STXingkaiTC-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0uh-MA-hbx">
+                                <rect key="frame" x="16" y="398" width="343" height="212"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">馴服了惡龍塔拉斯克的西元一世紀的聖女。
+與弟妹共同款待了救世主，
+在救世主的話語的指引下獲得了信仰。
+是一名擁有美貌，且魅力四射的完人。
+——連可怕的怪獸都為之神魂顛倒的聖少女。                                          -------------------------------------身高/體重：161cm．49kg
+出處：史實、新約聖經
+地域：歐洲
+屬性：秩序．善　　性別：女性
+可以騎乘龍種，破格的Rider。
+-------------------------------------                                                                  救世主被處刑後依然沒有捨棄信仰，
+被當時的羅馬總督流放卻沒有死，
+憑藉神之恩寵，漂流到法國南部。
+在羅納河沿岸的城鎮奈魯克，
+與給人們帶來痛苦的殘暴的龍對峙。      -------------------------------------奇蹟：D
+有時能將不可能化為可能的奇蹟。固有技能。
+與技能星之開拓者雖有相似處，
+但本質是截然不同的存在。適用的對象自然也不同。                                                                        -                                                                                        從外表到內在都是一名完美的聖女。
+或許是因為有妹妹的緣故，其言行總是一副大姐氣派。
+善良、清廉、沉穩——散發著光輝的人。
+然而……尤其是面對關係親密的對象，
+偶爾會表現出「非聖女的瑪爾大」的一面。                                                      -                                                                   從外表到內在都是一名完美的聖女。
+或許是因為有妹妹的緣故，其言行總是一副大姐氣派。
+善良、清廉、沉穩——散發著光輝的人。
+然而……尤其是面對關係親密的對象，
+偶爾會表現出「非聖女的瑪爾大」的一面。                                                                                -                                                                        「非聖女的瑪爾大」的表情會變得尖刻、好動、好勝。
+這是她成為聖女之前「與弟妹同居的村姑」時的模樣。
+只是，即便言行變化，她的本質也依然不會改變，
+依然是聖女。簡而言之，
+就是將篩檢程式打開還是關閉的區別而已。</mutableString>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HTC-on-YAc">
+                                <rect key="frame" x="0.0" y="72" width="375" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UrT-9F-qaI">
+                                        <rect key="frame" x="0.0" y="0.0" width="750" height="270"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪爾大靈機" translatesAutoresizingMaskIntoConstraints="NO" id="Yiv-FJ-OOp">
+                                                <rect key="frame" x="375" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪爾大一二" translatesAutoresizingMaskIntoConstraints="NO" id="Pj5-0y-lug">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="270"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <viewLayoutGuide key="safeArea" id="S9O-9A-1dx"/>
+                                    </view>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="contentSize">
+                                        <size key="value" width="750" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <viewLayoutGuide key="safeArea" id="3gx-m0-Ioq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LFn-9Z-TnX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GyA-K6-L9F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4886" y="208"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="其斯塔一二" width="1024" height="724"/>
+        <image name="瑪爾大" width="192" height="192"/>
+        <image name="瑪爾大一二" width="1024" height="724"/>
+        <image name="瑪爾大靈機" width="1024" height="724"/>
+        <image name="船長" width="1024" height="724"/>
+        <image name="船長一二" width="1024" height="724"/>
+        <image name="船長大頭" width="256" height="256"/>
+        <image name="阪本龍馬" width="1024" height="724"/>
+        <image name="阪本龍馬一二" width="1024" height="724"/>
+        <image name="阪本龍馬大頭" width="256" height="256"/>
+        <image name="阿福" width="1024" height="724"/>
+        <image name="阿福一二" width="1024" height="724"/>
+        <image name="阿福大頭" width="192" height="192"/>
+        <image name="騎伊斯塔" width="1024" height="724"/>
+        <image name="騎伊斯塔大頭" width="256" height="256"/>
+    </resources>
+</document>

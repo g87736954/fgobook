@@ -14,6 +14,19 @@
 		CEA5BA4F21FAC074000694A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA4D21FAC074000694A3 /* LaunchScreen.storyboard */; };
 		CEA5BA5A21FAC074000694A3 /* fgobookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BA5921FAC074000694A3 /* fgobookTests.swift */; };
 		CEA5BA6521FAC074000694A3 /* fgobookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA5BA6421FAC074000694A3 /* fgobookUITests.swift */; };
+		CEA5BA7421FAFB53000694A3 /* Saber.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7221FAFB53000694A3 /* Saber.storyboard */; };
+		CEA5BA7621FB371A000694A3 /* Lancer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7521FB371A000694A3 /* Lancer.storyboard */; };
+		CEA5BA7821FB3844000694A3 /* Aecher.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7721FB3844000694A3 /* Aecher.storyboard */; };
+		CEA5BA7A21FB3879000694A3 /* Rider.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7921FB3879000694A3 /* Rider.storyboard */; };
+		CEA5BA7C21FB3890000694A3 /* Caster.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7B21FB3890000694A3 /* Caster.storyboard */; };
+		CEA5BA7E21FB38A5000694A3 /* assassin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7D21FB38A5000694A3 /* assassin.storyboard */; };
+		CEA5BA8021FB38B6000694A3 /* berserker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA7F21FB38B6000694A3 /* berserker.storyboard */; };
+		CEA5BA8221FB38CF000694A3 /* ruler.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8121FB38CF000694A3 /* ruler.storyboard */; };
+		CEA5BA8421FB38E4000694A3 /* avenger.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8321FB38E4000694A3 /* avenger.storyboard */; };
+		CEA5BA8621FB38F9000694A3 /* altergo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8521FB38F9000694A3 /* altergo.storyboard */; };
+		CEA5BA8821FB390F000694A3 /* mooncener.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8721FB390F000694A3 /* mooncener.storyboard */; };
+		CEA5BA8A21FB3930000694A3 /* foreigner.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8921FB3930000694A3 /* foreigner.storyboard */; };
+		CEA5BA8C21FB3943000694A3 /* shielder.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA5BA8B21FB3943000694A3 /* shielder.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		CEA5BA6021FAC074000694A3 /* fgobookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fgobookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA5BA6421FAC074000694A3 /* fgobookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fgobookUITests.swift; sourceTree = "<group>"; };
 		CEA5BA6621FAC074000694A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA5BA7321FAFB53000694A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = fgobook/Base.lproj/Saber.storyboard; sourceTree = "<group>"; };
+		CEA5BA7521FB371A000694A3 /* Lancer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lancer.storyboard; sourceTree = "<group>"; };
+		CEA5BA7721FB3844000694A3 /* Aecher.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Aecher.storyboard; sourceTree = "<group>"; };
+		CEA5BA7921FB3879000694A3 /* Rider.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rider.storyboard; sourceTree = "<group>"; };
+		CEA5BA7B21FB3890000694A3 /* Caster.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Caster.storyboard; sourceTree = "<group>"; };
+		CEA5BA7D21FB38A5000694A3 /* assassin.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = assassin.storyboard; sourceTree = "<group>"; };
+		CEA5BA7F21FB38B6000694A3 /* berserker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = berserker.storyboard; sourceTree = "<group>"; };
+		CEA5BA8121FB38CF000694A3 /* ruler.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ruler.storyboard; sourceTree = "<group>"; };
+		CEA5BA8321FB38E4000694A3 /* avenger.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = avenger.storyboard; sourceTree = "<group>"; };
+		CEA5BA8521FB38F9000694A3 /* altergo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = altergo.storyboard; sourceTree = "<group>"; };
+		CEA5BA8721FB390F000694A3 /* mooncener.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mooncener.storyboard; sourceTree = "<group>"; };
+		CEA5BA8921FB3930000694A3 /* foreigner.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = foreigner.storyboard; sourceTree = "<group>"; };
+		CEA5BA8B21FB3943000694A3 /* shielder.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = shielder.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,19 @@
 		CEA5BA3821FAC072000694A3 = {
 			isa = PBXGroup;
 			children = (
+				CEA5BA8B21FB3943000694A3 /* shielder.storyboard */,
+				CEA5BA8921FB3930000694A3 /* foreigner.storyboard */,
+				CEA5BA8721FB390F000694A3 /* mooncener.storyboard */,
+				CEA5BA8521FB38F9000694A3 /* altergo.storyboard */,
+				CEA5BA8321FB38E4000694A3 /* avenger.storyboard */,
+				CEA5BA8121FB38CF000694A3 /* ruler.storyboard */,
+				CEA5BA7F21FB38B6000694A3 /* berserker.storyboard */,
+				CEA5BA7D21FB38A5000694A3 /* assassin.storyboard */,
+				CEA5BA7B21FB3890000694A3 /* Caster.storyboard */,
+				CEA5BA7921FB3879000694A3 /* Rider.storyboard */,
+				CEA5BA7721FB3844000694A3 /* Aecher.storyboard */,
+				CEA5BA7521FB371A000694A3 /* Lancer.storyboard */,
+				CEA5BA7221FAFB53000694A3 /* Saber.storyboard */,
 				CEA5BA4321FAC072000694A3 /* fgobook */,
 				CEA5BA5821FAC074000694A3 /* fgobookTests */,
 				CEA5BA6321FAC074000694A3 /* fgobookUITests */,
@@ -229,9 +268,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA5BA7421FAFB53000694A3 /* Saber.storyboard in Resources */,
+				CEA5BA8A21FB3930000694A3 /* foreigner.storyboard in Resources */,
+				CEA5BA8621FB38F9000694A3 /* altergo.storyboard in Resources */,
+				CEA5BA8421FB38E4000694A3 /* avenger.storyboard in Resources */,
 				CEA5BA4F21FAC074000694A3 /* LaunchScreen.storyboard in Resources */,
+				CEA5BA7C21FB3890000694A3 /* Caster.storyboard in Resources */,
+				CEA5BA7A21FB3879000694A3 /* Rider.storyboard in Resources */,
+				CEA5BA7821FB3844000694A3 /* Aecher.storyboard in Resources */,
+				CEA5BA8821FB390F000694A3 /* mooncener.storyboard in Resources */,
+				CEA5BA7E21FB38A5000694A3 /* assassin.storyboard in Resources */,
+				CEA5BA8C21FB3943000694A3 /* shielder.storyboard in Resources */,
 				CEA5BA4C21FAC074000694A3 /* Assets.xcassets in Resources */,
 				CEA5BA4A21FAC072000694A3 /* Main.storyboard in Resources */,
+				CEA5BA8221FB38CF000694A3 /* ruler.storyboard in Resources */,
+				CEA5BA8021FB38B6000694A3 /* berserker.storyboard in Resources */,
+				CEA5BA7621FB371A000694A3 /* Lancer.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +359,14 @@
 				CEA5BA4E21FAC074000694A3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CEA5BA7221FAFB53000694A3 /* Saber.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA5BA7321FAFB53000694A3 /* Base */,
+			);
+			name = Saber.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
